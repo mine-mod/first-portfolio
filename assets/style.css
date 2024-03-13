@@ -1,0 +1,97 @@
+:root {
+--dark: #2C2B31;
+--blend: #4D3B9C;
+
+
+}
+
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    background-color: var(--dark);
+    justify-content: flex-start;
+}
+
+.header {
+    width: auto;
+    padding: 30px;
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', 'sans-serif';
+    background-color: var(--blend);
+    color: black;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 55px;
+}
+
+.nav {
+    display: flex;
+    background-color: var(--blend);
+}
+
+.nav a {
+    color: black;
+    padding: 0px 10px 0px 0px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.section {
+
+}
+
+.section h2 {
+    font-size: 35px;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.footer {
+width: 100%;
+bottom: 0;
+text-align: center;
+margin-top:auto;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 50px;
+}
+
+.footer h2 {
+    font-size: 35px;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .card-column {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    .card-column:last-child {
+      flex-grow: 1;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    header {
+      width: 75%;
+    }
+  
+    .card-column {
+      flex: 0 0 33.333%;
+      max-width: 33.333%;
+    }
+  }
