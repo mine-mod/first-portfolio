@@ -43,11 +43,6 @@ a:hover {
     color: white;
 }
 
-
-.section {
-
-}
-
 .section h2 {
     font-size: 35px;
     display: flex;
@@ -76,6 +71,10 @@ background-color: var(--blend);
     padding: 50px;
 }
 
+.footer a:hover{
+    color: white;
+}
+
 .footer p {
     font-weight: 600; 
 }
@@ -89,14 +88,14 @@ background-color: var(--blend);
 
 .card {
     display: inline-block;
-    border-style: solid;
     border-width: 1px;
     padding: 10px;
     flex: 0 0 300px;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 5px 5px 5px #aaaaaa;
     margin: 20px;
     max-width: 400px;
     max-height: 250px;
+    
   } 
 
   .image-box{
@@ -140,6 +139,16 @@ background-color: var(--blend);
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+  }
+
+  .image {
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
+  }
+
+  .article {
+    background-color: grey;
   }
 
 
